@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes selectors</title>
+    <style>
+        /* .hover:hover{     
+            background-color: #080004;
+            color: azure;
+        }
+        input:focus{
+            color: blueviolet;
+            background-color: #0c0000;
+        } */
+        /* a:hover{
+            color:brown;
+        }
+        a:active{
+            color: green;
+        } */
+        /* a:visited{
+            color: black;
+        } */
+        /* a:first-child{
+            background-color:#50edb8d2;
+        } */
+        /* a:nth-child(odd){
+            background-color: #9ed0cb;
+        } */
+        /* p::first-line{
+            color: blue;
+        } */
+        /* p::after{
+            content: "-MANSI MALIK";
+            color: violet;
+        } */
+        /* p::before{
+            content: "-MANSI MALIK ";
+            color: violet;
+        } */
+        p::selection{
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- hover  ,  hover is only used over link and button-->
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, amet?</p>
+    <input type="text">
+    <hr>
+    <nav>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">google</a>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aut aliquid nostrum, saepe unde eligendi quam odit tempora culpa, nemo non, quas vero. Magni aut vitae accusamus saepe deserunt voluptatum amet consequatur, ad corporis et fuga placeat sapiente cupiditate quidem impedit dolorum temporibus voluptates exercitationem suscipit sit? Ducimus, iure quisquam.</p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* body{
+    background-color: hotpink;
+}
+p{
+    color: darkblue;
+} */
+.heading {
+    color: brown;
+    font-size: 45;
+    text-align: center;
+    text-decoration:underline;
+    border: 3px dotted black;  
+}

@@ -1,0 +1,89 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e9e4d9;
+}
+
+nav{
+    padding: 20px 10%;
+    /* height: 15vh; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+ 
+nav ul li {
+    list-style: none;
+    margin-left: 5%;
+    font-weight: 700;
+}
+
+nav ul div {
+    width: 100px;
+}
+
+.chinuanpad {
+    display: flex;
+}
+
+span div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 40%;
+    height:400px;
+    margin-right:10px;
+}
+.right{
+    display:flex;
+    margin-right: 10px;
+    height:200px;
+
+}
+.ggg{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    height:300px;
+    
+
+}
+.chinubewakoof{
+    margin:20px;
+}
+.bb{
+    height:200px;
+    width:400px;
+}
+.cc{
+    width:200px;
+    height:200px;
+
+}
+.dd{
+    width:400px;
+}
+.left h1{
+    font-size: 60px;
+}
+
+.left p{
+    margin: 5% 0;
+}
+
+.left button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: azure;
+    font-weight: 600;
+    border: none;
+    background-color: #3eb346;
+    border-radius: 10px;
+    
+}

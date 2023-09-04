@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition and tooltip</title>
+   <style>
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        transition: width 1s, height 1s, background-color 2s;
+        /* transition-timing-function: ease-in-out; */
+        /* transition-delay: 3s; */
+    }
+    
+    div:hover{
+        width: 120px;
+        height: 120px;
+        background-color: violet;
+    }
+   </style>
+</head>
+<body>
+    <!-- transition -->
+    <div>hello this is Mansi Malik.nice to meet you</div>
+    <p title="hello Mansi">here</p>
+</body>
+</html>
